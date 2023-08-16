@@ -1,5 +1,5 @@
 class Solution:
-    """link to the problem: https://leetcode.com/problems/group-anagrams/"""
+    """link to the problem: https://leetcode.com/problems/product-of-array-except-self/"""
     @staticmethod
     def v1_product_except_self(nums: list[int]) -> list[int]:
         """
