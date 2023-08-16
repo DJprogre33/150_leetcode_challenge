@@ -17,7 +17,7 @@ class Solution:
     def v2_contains_duplicate(nums: list[int]) -> bool:
         """
         Time complexity: O(n) 480ms beats 84.61%
-        Space complexity: 0(n) 34MB beats 6.75%
+        Space complexity: 0(n) 34mb beats 6.75%
         """
         hashmap = {}
         for n in nums:

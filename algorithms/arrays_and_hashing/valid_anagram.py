@@ -4,7 +4,7 @@ class Solution:
     def v1_is_anagram(s: str, t: str) -> bool:
         """
         Time complexity: O(n) 59ms beats 68.96%
-        Space complexity: 0(n) 16.83ms beats 62.98%
+        Space complexity: 0(n) 16.83mb beats 62.98%
         """
         if len(s) != len(t):
             return False
