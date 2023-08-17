@@ -1,6 +1,10 @@
 class Solution:
     """link to the problem: https://leetcode.com/problems/min-stack/"""
     class MinStack:
+        """
+        Time complexity: O(1) for each function 64ms beats 77.64%
+        Space complexity: 0(n) 20.44mb beats 48.02%
+        """
 
         def __init__(self):
             self.stack = []
