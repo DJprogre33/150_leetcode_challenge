@@ -4,7 +4,7 @@ class Solution:
     def v1_generate_parenthesis(n: int) -> list[str]:
         """
         Time complexity: O(2^n) 47ms beats 58.19%
-        Space complexity: 0(2^n) 16.57mb beats 88.17%
+        Space complexity: 0(n) 16.57mb beats 88.17%
         """
         res = []
         stack = []
