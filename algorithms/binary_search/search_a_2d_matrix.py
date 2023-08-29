@@ -1,5 +1,5 @@
 class Solution:
-    """link to the problem: https://leetcode.com/problems/binary-search/"""
+    """link to the problem: https://leetcode.com/problems/search-a-2d-matrix/"""
     @staticmethod
     def v1_search_matrix(matrix: list[list[int]], target: int) -> bool:
         """
