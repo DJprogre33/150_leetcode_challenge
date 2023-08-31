@@ -31,11 +31,3 @@ class TimeMap:
         return result
 
 
-s = TimeMap()
-s.set("foo", "bar", 1)
-print(s.get("foo", 1))
-print(s.get("foo", 3))
-s.set("foo", "bar2", 4)
-print(s.get("foo", 4))
-print(s.get("foo", 5))
-
