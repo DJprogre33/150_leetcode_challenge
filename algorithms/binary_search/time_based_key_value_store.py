@@ -29,5 +29,3 @@ class TimeMap:
                 else:
                     right = mid - 1
         return result
-
-
