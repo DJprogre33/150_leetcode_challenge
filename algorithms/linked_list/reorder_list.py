@@ -1,6 +1,5 @@
 # Definition for singly-linked list.
 from typing import Optional
-from collections import deque
 
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -13,8 +12,8 @@ class Solution:
     @staticmethod
     def v1_reorder_list(head: Optional[ListNode]) -> None:
         """
-        Time complexity: O(n) ms beats %
-        Space complexity: O(n) mb beats %
+        Time complexity: O(n) 78ms beats 72.11%
+        Space complexity: O(1) 26mb beats 87.19%
         """
         # find middle
         slow, fast = head, head.next
