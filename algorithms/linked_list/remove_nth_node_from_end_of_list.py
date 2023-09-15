@@ -8,7 +8,7 @@ class ListNode:
 
 
 class Solution:
-    """link to the problem: https://leetcode.com/problems/reorder-list/"""
+    """link to the problem: https://leetcode.com/problems/remove-nth-node-from-end-of-list/"""
     @staticmethod
     def v1_remove_nth_from_end(head: Optional[ListNode], n: int) -> Optional[ListNode]:
         """
