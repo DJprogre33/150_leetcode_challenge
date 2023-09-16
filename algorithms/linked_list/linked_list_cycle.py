@@ -8,7 +8,7 @@ class ListNode:
 
 
 class Solution:
-    """link to the problem: https://leetcode.com/problems/linked-list-cycle/description/"""
+    """link to the problem: https://leetcode.com/problems/linked-list-cycle/"""
     @staticmethod
     def v1_add_two_numbers(head: Optional[ListNode]) -> bool:
         """
