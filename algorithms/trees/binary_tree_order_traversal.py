@@ -11,7 +11,7 @@ class TreeNode:
 
 
 class Solution:
-    """link to the problem: https://leetcode.com/problems/balanced-binary-tree/"""
+    """link to the problem: https://leetcode.com/problems/binary-tree-level-order-traversal/"""
     @staticmethod
     def v1_level_order(root: Optional[TreeNode]) -> list[list[int]]:
         """
