@@ -3,7 +3,7 @@ class Solution:
     @staticmethod
     def v1_subsets(nums: list[int]) -> list[list[int]]:
         """
-        Time complexity: O(n) 35ms beats 88.70%
+        Time complexity: O(2^n) 35ms beats 88.70%
         Space complexity: 0(n) 16.36mb beats 91.50%
         """
         res, subset = [], []
